@@ -1,0 +1,14 @@
+{
+  "name": "cucumber-sample-tests-js",
+  "version": "1.0.0",
+  "description": "Demo for cucumber using javascript",
+  "author": "Domenico Pio Novelli",
+  "devDependencies": {
+    "@cucumber/cucumber": "7.3.1"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "test:all": "cucumber-js -p all",
+    "test:profile": "cucumber-js -p"
+  }
+}
